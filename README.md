@@ -1,5 +1,7 @@
 # The gulp plugin for generation nginx configs
 
+Generate `Nginx` config from `json` file, using [nginxer](https://github.com/SuperPaintman/nginxer)
+
 ------------------------------------
 
 ## Installation
