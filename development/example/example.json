@@ -1,0 +1,18 @@
+{
+    "server_name": [
+        "example.com"
+    ],
+
+    "proxys": [{
+        "location": "/",
+        "backends_name": "backend",
+        "backends": [{
+            "address":        "127.0.0.1",
+            "port":           8080
+        }]
+    }],
+
+    "globals": {
+        "trust_proxy": true
+    }
+}
